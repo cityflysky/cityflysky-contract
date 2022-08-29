@@ -27,7 +27,7 @@ contract GovernanceERC20 is AdaptiveERC165, ERC20VotesUpgradeable, DaoAuthorizab
         IDAO _dao,
         string calldata _name,
         string calldata _symbol
-    ) internal onlyInitializing {
+    ) internal onlyInitializing {onlyInitializing
         __ERC20_init(_name, _symbol);
         __ERC20Permit_init(_name);
         __DaoAuthorizable_init(_dao);
