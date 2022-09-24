@@ -60,11 +60,11 @@
 	},
 	"sources": {
 		"localhost/cityzen.sol": {
-			"keccak256": "0xe9dbe776ea51d19aa9f9b6076fa0773a1a7a9f77133f2ca42751cfc5550aed4e",
+			"keccak256": "0xa69956d292ba6114ca8528319028c7504fa71b97459085334c62e75e16951f96",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4849aa1799fd4ea5342e4bd0bebfc6122d4e82ec1518afdb997016c37a90047f",
-				"dweb:/ipfs/QmNkh3EMU3FxaQeXwDjQiwKvXrVQVjXSC4ssYLWSEZg6e3"
+				"bzz-raw://f89fe487a9228f5a54313f61858a879099c18c5d4aa2556b44969ba0ea70e8a9",
+				"dweb:/ipfs/QmZmw7aGBir5J2vdtRZ7p6oELk4Ah3h2qpjGnwtUAufGfN"
 			]
 		}
 	},

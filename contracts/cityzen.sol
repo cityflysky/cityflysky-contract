@@ -7,6 +7,7 @@ contract citizen {
     mapping(address=>int64) cityTypeMap;
     int256 citizenNumber = 0;
     function joinCity()  public{
+        require(cityTypeMap[msg.sender]!=1,'this user is in the citizenMap');
         citizenMap[citizenNumber++] = msg.sender;
         cityTypeMap[msg.sender] = 1;
     }
