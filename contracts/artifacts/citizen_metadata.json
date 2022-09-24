@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"name": "citizenMap",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "joinCity",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"localhost/cityzen.sol": "citizen"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"localhost/cityzen.sol": {
+			"keccak256": "0xe9dbe776ea51d19aa9f9b6076fa0773a1a7a9f77133f2ca42751cfc5550aed4e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4849aa1799fd4ea5342e4bd0bebfc6122d4e82ec1518afdb997016c37a90047f",
+				"dweb:/ipfs/QmNkh3EMU3FxaQeXwDjQiwKvXrVQVjXSC4ssYLWSEZg6e3"
+			]
+		}
+	},
+	"version": 1
+}
